@@ -6,14 +6,14 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/editTextCpf"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nome Completo"
         />
 
     <EditText
-        android:id="@+id/editTextCpf"
+        android:id="@+id/editTextCPF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="CPF"
@@ -21,14 +21,21 @@
 
 
     <EditText
-        android:id="@+id/editTextTelefone"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Telefone"
         />
 
     <Button
-        android:id="@+id/buttonReport"
+        android:id="@+id/buttonSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Cadastrar Usuário"
